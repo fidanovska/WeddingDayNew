@@ -61,8 +61,9 @@
 		1A40855226318F4600B49B20 /* LoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadView.swift; sourceTree = "<group>"; };
 		1A40855526318F5600B49B20 /* LoadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadView.xib; sourceTree = "<group>"; };
 		1A4085582631914900B49B20 /* Exten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exten.swift; sourceTree = "<group>"; };
-		1A920C842630695F00AC2DB9 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../../Downloads/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		1A920C842630695F00AC2DB9 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		1B0EC912258B5E5D008E5DD9 /* AddTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTableViewController.swift; sourceTree = "<group>"; };
+		1B3596D987B320FAD7405FF2 /* Pods-My Wedding Day.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Wedding Day.release.xcconfig"; path = "Target Support Files/Pods-My Wedding Day/Pods-My Wedding Day.release.xcconfig"; sourceTree = "<group>"; };
 		1B37036A2610F8D400513D30 /* TableDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDetailsViewController.swift; sourceTree = "<group>"; };
 		1B37036C2610FE9B00513D30 /* GuestListOnTableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestListOnTableTableViewCell.swift; sourceTree = "<group>"; };
 		1B38B4152599D04B0016EF9A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -107,9 +108,8 @@
 		1BF386322583CB8200EA692E /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		1BF386362583DF8300EA692E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		1BF4309B25B8F7ED001068AF /* TableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableModel.swift; sourceTree = "<group>"; };
-		1F43E7E923029A761499A04D /* Pods-My Wedding Day.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Wedding Day.release.xcconfig"; path = "Target Support Files/Pods-My Wedding Day/Pods-My Wedding Day.release.xcconfig"; sourceTree = "<group>"; };
-		35B9F5060ADDB2B26B17DC4D /* Pods-My Wedding Day.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Wedding Day.debug.xcconfig"; path = "Target Support Files/Pods-My Wedding Day/Pods-My Wedding Day.debug.xcconfig"; sourceTree = "<group>"; };
 		793BADDBFA7780BDF0F28A69 /* Pods_My_Wedding_Day.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Wedding_Day.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE72400E6F04135E6FA1A4E /* Pods-My Wedding Day.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Wedding Day.debug.xcconfig"; path = "Target Support Files/Pods-My Wedding Day/Pods-My Wedding Day.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,8 +196,8 @@
 			children = (
 				1BF385FC2583709F00EA692E /* My Wedding Day */,
 				1BF385FB2583709F00EA692E /* Products */,
-				B1B352CA09F0D058F9F69B18 /* Pods */,
 				6154C29D3E752D2B20A27FFC /* Frameworks */,
+				8995452510DBA5DC3A54ECCE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -253,11 +253,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B1B352CA09F0D058F9F69B18 /* Pods */ = {
+		8995452510DBA5DC3A54ECCE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				35B9F5060ADDB2B26B17DC4D /* Pods-My Wedding Day.debug.xcconfig */,
-				1F43E7E923029A761499A04D /* Pods-My Wedding Day.release.xcconfig */,
+				8DE72400E6F04135E6FA1A4E /* Pods-My Wedding Day.debug.xcconfig */,
+				1B3596D987B320FAD7405FF2 /* Pods-My Wedding Day.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -562,7 +562,7 @@
 		};
 		1BF3860F258370A500EA692E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35B9F5060ADDB2B26B17DC4D /* Pods-My Wedding Day.debug.xcconfig */;
+			baseConfigurationReference = 8DE72400E6F04135E6FA1A4E /* Pods-My Wedding Day.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -584,7 +584,7 @@
 		};
 		1BF38610258370A500EA692E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F43E7E923029A761499A04D /* Pods-My Wedding Day.release.xcconfig */;
+			baseConfigurationReference = 1B3596D987B320FAD7405FF2 /* Pods-My Wedding Day.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";

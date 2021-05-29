@@ -6,7 +6,6 @@ target 'My Wedding Day' do
   use_frameworks!
 
   # Pods for My Wedding Day
-  
   pod 'TPKeyboardAvoidingSwift'
   pod 'Firebase/Auth'
   pod 'Firebase/Core'
@@ -14,5 +13,4 @@ target 'My Wedding Day' do
   pod 'Firebase/Database'
   pod 'FirebaseUI/Storage', '~> 8.0'
   pod 'NVActivityIndicatorView'
-
 end

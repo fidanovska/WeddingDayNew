@@ -1,0 +1,6 @@
+framework module Pods_My_Wedding_Day {
+  umbrella header "Pods-My Wedding Day-umbrella.h"
+
+  export *
+  module * { export * }
+}

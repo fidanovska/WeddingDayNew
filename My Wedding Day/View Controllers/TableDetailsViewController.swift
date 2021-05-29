@@ -104,9 +104,9 @@ class TableDetailsViewController: UIViewController, UITableViewDataSource, UITab
                 refGuests = Database.database().reference().child("userInfo").child(uid!).child("tables").child(tableId).child("guestsOnTable")
                 refGuests.observe(.value) { (snapshot) in
                     if let guests = snapshot.value as? [String] {
-                        for i in 0..<guests.count{
+                        for i in 0..<guests.count {
                             if guests[i] == guestName {
-                                self.refGuests.child("userInfo").child(self.uid!).child("tables").child(tableId).child("guestsOnTable").child("\(i)").removeValue()
+                                self.refGuests.child("\(i)").removeValue()
                                 print(tableId)
 
                                 self.guestList.remove(at: indexPath.row)
