@@ -55,7 +55,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alredy have one?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Th-jd-qT8">
-                                <rect key="frame" x="162" y="612" width="90.5" height="14"/>
+                                <rect key="frame" x="160.5" y="612" width="93" height="14"/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -396,7 +396,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aiQ-q2-HA7">
-                                <rect key="frame" x="194.5" y="510" width="25.5" height="14.5"/>
+                                <rect key="frame" x="194.5" y="510" width="25.5" height="14"/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
                                 <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
@@ -586,7 +586,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guest list" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyS-v1-fP4">
-                                <rect key="frame" x="156" y="86" width="102.5" height="40"/>
+                                <rect key="frame" x="146" y="86" width="122" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="o3K-vP-uUv"/>
                                 </constraints>
@@ -663,7 +663,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="e-mail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ved-dJ-lTe">
-                                <rect key="frame" x="40" y="301" width="38" height="20"/>
+                                <rect key="frame" x="40" y="301" width="39" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="Wjj-XS-lr4"/>
                                 </constraints>
@@ -681,7 +681,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqb-rD-sSX">
-                                <rect key="frame" x="40" y="411" width="91" height="20"/>
+                                <rect key="frame" x="40" y="411" width="92.5" height="20"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="McI-wk-oan"/>
                                 </constraints>
@@ -826,7 +826,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select side" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2o8-ug-WMb">
-                                <rect key="frame" x="30" y="441" width="63" height="15"/>
+                                <rect key="frame" x="30" y="441" width="64.5" height="15"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="15" id="Wo3-Ba-w6a"/>
                                 </constraints>
@@ -1044,7 +1044,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter table capacity..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mcC-r1-h5e">
-                                <rect key="frame" x="120" y="131.5" width="174" height="40"/>
+                                <rect key="frame" x="120" y="124" width="174" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="izF-uz-irq"/>
                                 </constraints>
@@ -1052,7 +1052,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3G-nN-3Sv">
-                                <rect key="frame" x="214.5" y="181.5" width="169.5" height="80"/>
+                                <rect key="frame" x="214.5" y="174" width="169.5" height="80"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.81960784310000001" blue="0.85098039219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="22"/>
                                 <color key="textColor" red="0.47058823529999999" green="0.46666666670000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1064,7 +1064,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lX3-Ag-oaM">
-                                <rect key="frame" x="0.0" y="339" width="414" height="469"/>
+                                <rect key="frame" x="0.0" y="331.5" width="414" height="476.5"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.97822278740000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.99215686270000003" green="0.96862745100000003" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
@@ -1126,19 +1126,19 @@
                                 </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick guest from the list" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gp-d4-BDP">
-                                <rect key="frame" x="30" y="306.5" width="143.5" height="16.5"/>
+                                <rect key="frame" x="30" y="299" width="143.5" height="16.5"/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                 <color key="textColor" red="0.47058823529999999" green="0.46666666670000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add table" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xA-oO-1eg">
-                                <rect key="frame" x="120" y="76" width="174" height="41.5"/>
+                                <rect key="frame" x="120" y="76" width="174" height="34"/>
                                 <fontDescription key="fontDescription" name="Satisfy-Regular" family="Satisfy" pointSize="29"/>
                                 <color key="textColor" red="0.47058823529999999" green="0.46666666670000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="33T-Iv-qmz">
-                                <rect key="frame" x="30" y="181.5" width="169.5" height="80"/>
+                                <rect key="frame" x="30" y="174" width="169.5" height="80"/>
                                 <color key="backgroundColor" red="0.66666666669999997" green="0.88235294119999996" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="Yzm-S7-4wb"/>
@@ -1153,13 +1153,13 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Table name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l2V-Ak-rUG">
-                                <rect key="frame" x="30" y="183.5" width="169.5" height="27.5"/>
+                                <rect key="frame" x="30" y="176" width="169.5" height="22.5"/>
                                 <fontDescription key="fontDescription" name="Satisfy-Regular" family="Satisfy" pointSize="19"/>
                                 <color key="textColor" red="1" green="1" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Table name" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="A8h-t0-Bu1">
-                                <rect key="frame" x="65" y="219" width="100" height="30"/>
+                                <rect key="frame" x="65" y="206.5" width="100" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="cy1-Ao-taL"/>
@@ -1169,13 +1169,13 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Table number" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4b-0t-8FZ">
-                                <rect key="frame" x="214.5" y="183.5" width="169.5" height="27.5"/>
+                                <rect key="frame" x="214.5" y="176" width="169.5" height="22.5"/>
                                 <fontDescription key="fontDescription" name="Satisfy-Regular" family="Satisfy" pointSize="19"/>
                                 <color key="textColor" red="1" green="1" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Table No." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kPy-El-0AM">
-                                <rect key="frame" x="249.5" y="219" width="100" height="30"/>
+                                <rect key="frame" x="249.5" y="206.5" width="100" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="bZV-36-27p"/>
@@ -1295,7 +1295,7 @@
                                 </connections>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guests on table" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6dl-gb-M9T">
-                                <rect key="frame" x="155" y="198" width="104.5" height="18"/>
+                                <rect key="frame" x="154" y="198" width="106" height="18"/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
                                 <color key="textColor" red="0.4431372549" green="0.4431372549" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1310,7 +1310,7 @@
                                 <rect key="frame" x="20" y="118" width="172" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gY1-Nb-BNf">
-                                        <rect key="frame" x="20" y="10" width="33.5" height="18"/>
+                                        <rect key="frame" x="20" y="10" width="42.5" height="18"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="18" id="3py-Dy-joh"/>
                                         </constraints>
@@ -1319,7 +1319,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMI-px-idG">
-                                        <rect key="frame" x="20" y="33" width="33.5" height="21"/>
+                                        <rect key="frame" x="20" y="33" width="42.5" height="21"/>
                                         <fontDescription key="fontDescription" name="Satisfy-Regular" family="Satisfy" pointSize="16"/>
                                         <color key="textColor" red="1" green="1" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1340,7 +1340,7 @@
                                 <rect key="frame" x="222" y="118" width="172" height="60"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Regular" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J9n-qn-31h">
-                                        <rect key="frame" x="20" y="10" width="47" height="18"/>
+                                        <rect key="frame" x="20" y="10" width="55.5" height="18"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="18" id="gq1-xJ-0BE"/>
                                         </constraints>
@@ -1349,7 +1349,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vegan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8Z-tN-Amf">
-                                        <rect key="frame" x="20" y="33" width="47" height="21"/>
+                                        <rect key="frame" x="20" y="33" width="55.5" height="21"/>
                                         <fontDescription key="fontDescription" name="Satisfy-Regular" family="Satisfy" pointSize="16"/>
                                         <color key="textColor" red="1" green="1" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1433,7 +1433,7 @@
                                 </cells>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sitting plan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eob-c7-OrX">
-                                <rect key="frame" x="143.5" y="86" width="127.5" height="40"/>
+                                <rect key="frame" x="134" y="86" width="146.5" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="vhF-Sh-pGj"/>
                                 </constraints>
