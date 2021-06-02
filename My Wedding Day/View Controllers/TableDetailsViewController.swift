@@ -30,6 +30,9 @@ class TableDetailsViewController: UIViewController, UITableViewDataSource, UITab
     let uid = Auth.auth().currentUser?.uid
     var updatedGuestList: [String] = []
     
+  //  var ref: DatabaseReference!
+    var ref = Database.database().reference()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -40,7 +43,8 @@ class TableDetailsViewController: UIViewController, UITableViewDataSource, UITab
         menuCount()
         guestList = tableData?.guests ?? [String]()
         self.navigationController?.navigationBar.isHidden = false
-        guestsOnTableTableView.reloadData()
+        reloadTableView()
+       // guestsOnTableTableView.reloadData()
         guestsOnTableTableView.separatorStyle = .none
     }
     
@@ -68,6 +72,27 @@ class TableDetailsViewController: UIViewController, UITableViewDataSource, UITab
         secondView.layer.masksToBounds = true
     }
     
+    func reloadTableView() {
+        guestList.removeAll()
+        if let tableId = tableData?.id {
+            
+            Database.database().reference().child("userInfo").child(uid!).child("tables").child(tableId).child("guestsOnTable").queryOrderedByKey().observe(.value) { (snapshot) in
+                if snapshot.childrenCount>0 {
+                    self.guestList.removeAll()
+                    
+                    for guest in snapshot.children.allObjects as![DataSnapshot]{
+                        if let guestObject = guest.value as? String{
+                            self.guestList.append(guestObject)
+                        }
+                    }
+                    DispatchQueue.main.async {
+                        self.guestsOnTableTableView.reloadData()
+                    }
+                }
+            }
+            
+        }
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return guestList.count
@@ -102,25 +127,28 @@ class TableDetailsViewController: UIViewController, UITableViewDataSource, UITab
             let guestName = guestList[indexPath.row]
             if let tableId = tableData?.id{
                 refGuests = Database.database().reference().child("userInfo").child(uid!).child("tables").child(tableId).child("guestsOnTable")
-                refGuests.observe(.value) { (snapshot) in
-                    if let guests = snapshot.value as? [String] {
-                        for i in 0..<guests.count {
-                            if guests[i] == guestName {
-                                self.refGuests.child("\(i)").removeValue()
-                                print(tableId)
-
-                                self.guestList.remove(at: indexPath.row)
-                                self.guestsOnTableTableView.reloadData()
-                              break
+                refGuests.observe(.value) { (snapshot, error) in
+                    
+                    if let error = error {
+                        print(error.description)
+                    }
+                    if let guests = snapshot.children.allObjects as? [DataSnapshot] {
+                        
+                    
+                    for (index,guest) in guests.enumerated() {
+                        if let guestObject = guest.value as? String {
+                            if guestObject == guestName {
+                                self.guestList.remove(at: index)
+                                self.refGuests.setValue(self.guestList)
+                                DispatchQueue.main.async {
+                                    self.guestsOnTableTableView.reloadData()
+                                }
                             }
-
                         }
                     }
                 }
             }
-
-           
         }
     }
 }
-
+}
